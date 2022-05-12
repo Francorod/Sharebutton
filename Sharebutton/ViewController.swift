@@ -35,8 +35,5 @@ class ViewController: UIViewController {
         let shareSheetVC = UIActivityViewController(activityItems: [image, url], applicationActivities: nil)
         present(shareSheetVC, animated: true)
     }
-    
-
-
 }
 
